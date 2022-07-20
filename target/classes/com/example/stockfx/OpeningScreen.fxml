@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="openingRoot" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="499.0" prefWidth="749.0" style="-fx-background-color: #7F899C;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.OpeningController">
+   <children>
+      <ImageView fx:id="background" fitHeight="500.0" fitWidth="750.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../Images/background.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image" fitHeight="110.0" fitWidth="110.0" layoutX="319.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/NYSE.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="Title" layoutX="201.0" layoutY="181.0" prefHeight="78.0" prefWidth="346.0" text="Stock Market">
+         <font>
+            <Font name="Century Gothic Bold" size="53.0" />
+         </font>
+      </Label>
+      <Button fx:id="signButton" layoutX="201.0" layoutY="266.0" mnemonicParsing="false" onAction="#signButtonPressed" prefHeight="30.0" prefWidth="140.0" text="New profile" />
+      <Button fx:id="logButton" layoutX="407.0" layoutY="266.0" mnemonicParsing="false" onAction="#logButtonPressed" prefHeight="30.0" prefWidth="140.0" text="Existing profile" />
+      <Button fx:id="startSimulation" layoutX="305.0" layoutY="388.0" mnemonicParsing="false" onAction="#buttonPressed" onMouseClicked="#openNewScreen" prefHeight="30.0" prefWidth="140.0" text="Start Simulation" />
+      <ComboBox fx:id="traders" layoutX="293.0" layoutY="316.0" onAction="#OnChooseTrader" onMouseClicked="#chooseTrader" prefHeight="29.0" prefWidth="162.0" promptText="Choose your trader" />
+      <TextField fx:id="traderName" layoutX="293.0" layoutY="316.0" prefHeight="29.0" prefWidth="162.0" promptText="Enter trader name" />
+      <Label fx:id="errorLabel" layoutX="293.0" layoutY="354.0" prefHeight="29.0" prefWidth="162.0" text="Error, username already exists!" />
+   </children>
+</AnchorPane>

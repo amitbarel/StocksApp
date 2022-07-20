@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<HBox fx:id="stockHBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="59.0" prefWidth="402.0" style="-fx-border-color: GREY; -fx-background-color: WHITE; -fx-border-style: SOLID;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.StockDisplayController">
+   <children>
+      <VBox fx:id="nameBox" prefHeight="200.0" prefWidth="134.0">
+         <children>
+            <Label fx:id="symbolLabel" alignment="CENTER" prefHeight="100.0" prefWidth="134.0" style="-fx-font-weight: bold;" text="Symbol" />
+            <Separator prefWidth="200.0" />
+            <Label fx:id="nameLabel" alignment="CENTER" opacity="0.5" prefHeight="100.0" prefWidth="134.0" text="Name" />
+         </children>
+      </VBox>
+      <Separator orientation="VERTICAL" prefHeight="200.0" />
+      <VBox fx:id="priceBox" prefHeight="59.0" prefWidth="96.0">
+         <children>
+            <Label fx:id="priceLabel" alignment="CENTER" prefHeight="100.0" prefWidth="134.0" text="Price" />
+            <Separator prefWidth="200.0" />
+            <Label fx:id="changeLabel" alignment="CENTER" prefHeight="100.0" prefWidth="134.0" text="Change" />
+         </children>
+      </VBox>
+      <Separator orientation="VERTICAL" prefHeight="200.0" />
+      <Label fx:id="quanLabel" alignment="CENTER" prefHeight="100.0" prefWidth="70.0" text="Quantity" />
+      <Separator orientation="VERTICAL" prefHeight="200.0" />
+      <Label fx:id="valueLabel" alignment="CENTER" prefHeight="59.0" prefWidth="81.0" text="Total value" />
+   </children>
+</HBox>

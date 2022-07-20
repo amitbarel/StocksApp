@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox fx:id="changeHBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="45.0" prefWidth="145.0" style="-fx-border-color: GREY; -fx-border-width: 0 0 1 0;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.StockChangeController">
+   <children>
+      <Label fx:id="symbolLbl" alignment="CENTER" prefHeight="45.0" prefWidth="47.0" style="-fx-font-weight: BOLD;" text="Symbol" />
+      <Separator orientation="VERTICAL" prefHeight="45.0" prefWidth="3.0" />
+      <Label fx:id="changeLbl" alignment="CENTER" prefHeight="46.0" prefWidth="42.0" text="change" />
+      <Separator orientation="VERTICAL" prefHeight="45.0" prefWidth="3.0" />
+      <Label fx:id="priceLbl" alignment="CENTER" prefHeight="46.0" prefWidth="46.0" text="price" />
+   </children>
+</HBox>

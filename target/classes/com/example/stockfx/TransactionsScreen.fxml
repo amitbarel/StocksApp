@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="504.0" prefWidth="402.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TransactionsController">
+   <children>
+      <Label layoutX="52.0" layoutY="44.0" style="-fx-font-weight: bold;" text="Choose the transaction:" />
+      <ButtonBar layoutX="167.0" layoutY="40.0" prefHeight="26.0" prefWidth="169.0">
+        <buttons>
+            <Button fx:id="BuyButton" mnemonicParsing="false" onMouseClicked="#openWatchlistStocks" text="Buy" />
+          <Button fx:id="SellButton" mnemonicParsing="false" onMouseClicked="#openPortfolioStocks" text="Sell" />
+        </buttons>
+      </ButtonBar>
+      <ScrollPane fx:id="portfolioScroll" hbarPolicy="NEVER" layoutX="59.0" layoutY="80.0" prefHeight="115.0" prefWidth="300.0">
+         <content>
+            <TableView fx:id="portfolioStocksTable" prefHeight="115.0" prefWidth="300.0">
+              <columns>
+                <TableColumn fx:id="symbolPort" prefWidth="75.0" text="Symbol" />
+                <TableColumn fx:id="pricePort" prefWidth="75.0" text="Price (USD)" />
+                  <TableColumn fx:id="changePort" prefWidth="75.0" text="Change" />
+                  <TableColumn fx:id="ownedPort" prefWidth="75.0" text="Owned" />
+              </columns>
+            </TableView>
+         </content>
+      </ScrollPane>
+      <ScrollPane fx:id="watchListScroll" hbarPolicy="NEVER" layoutX="59.0" layoutY="80.0" prefHeight="115.0" prefWidth="300.0">
+         <content>
+            <TableView fx:id="watchListTable" prefHeight="115.0" prefWidth="300.0">
+               <columns>
+                  <TableColumn fx:id="symbolWL" editable="false" prefWidth="75.0" text="Symbol" />
+                  <TableColumn fx:id="priceWL" editable="false" prefWidth="75.0" text="Price (USD)" />
+                  <TableColumn fx:id="changeWL" editable="false" prefWidth="75.0" sortable="false" text="Change" />
+                  <TableColumn fx:id="inventoryWL" editable="false" prefWidth="75.0" sortable="false" text="Inventory" />
+               </columns>
+            </TableView>
+         </content>
+      </ScrollPane>
+      <Label fx:id="avlBudget" layoutX="110.0" layoutY="208.0" style="-fx-font-weight: bold;" text="Available budget : " />
+      <Label fx:id="budgetLbl" layoutX="217.0" layoutY="208.0" prefHeight="18.0" prefWidth="75.0" />
+      <TextField fx:id="quantityField" layoutX="134.0" layoutY="234.0" promptText="Quantity" />
+      <Button fx:id="submitBtn" layoutX="151.0" layoutY="270.0" mnemonicParsing="false" onMouseClicked="#executeTransaction" text="Submit transaction" />
+      <Label fx:id="resultMsg" alignment="CENTER" layoutX="23.0" layoutY="305.0" prefHeight="27.0" prefWidth="370.0" text="Message" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,42 @@
+﻿symbol,company_name,price,price_change,ipo_Year,volume,industry,stock_inventory
+ABG,Asbury Automotive,164.42,0.00500,2002,1317,Consumer Services,380397
+ABR,Arbor Realty Trust,18.12,0.00890,2004,1089,Consumer Services,272716
+ACC,American Campus Communities,55.72,-0.00390,2004,3936,Consumer Services,775380
+ACI,Albertsons Companies,29.9,0.00340,2020,1229,Consumer Services,139670
+ACM,AECOM,75.86,0.01090,2007,5966,Consumer Services,107874
+ADS,Alliance Data Systems,69.07,0.01260,2001,6682,Finance,343865
+ADT,ADT,8.56,0.02520,2018,1793,Consumer Services,711567
+AEL,American Equity Investment Life Holding,38.56,0.00680,2003,1594,Finance,356732
+BKU,BankUnited,41.89,0.00410,2011,4484,Finance,373200
+BLD,TopBuild,275.74,0.03710,2015,1451,Capital Goods,907876
+BLDR,Builders FirstSource,82.15,0.01350,2005,2384,Consumer Services,157318
+BLK,BlackRock,913.92,0.00260,1999,4163,Finance,1.40E+05
+DKS,Dick's Sporting Goods,103.94,-0.00760,2002,1279,Consumer Services,900182
+DLB,Dolby Laboratories,92.69,0.00110,2005,2481,Technology,936444
+DLR,Digital Realty,169.81,-0.00930,2004,9434,Consumer Services,481899
+DNA,Ginkgo Bioworks Holdings,10.67,-0.03610,2021,5481,Health Care,178470
+DNB,Dun & Bradstreet Holdings,20.09,0.00550,2020,1014,Technology,866258
+DNP,DNP Select Income Fund,10.85,-0.00280,1987,5875,Finance,369959
+DOC,Physicians Realty Trust,18.25,0.00000,2013,1025,Consumer Services,402028
+DOCN,DigitalOcean Holdings,81.26,0.02550,2021,1248,Technology,863520
+ETY,Eaton Vance,14.83,0.00820,2006,2645,Finance,229251
+EVA,Enviva,71.06,0.00400,2015,6111,Industrial ,433628
+EVH,Evolent Health,26.98,0.00220,2015,1840,Health Care,241229
+EVR,Evercore ,135.71,0.01360,2006,2271,Finance,529529
+GM,General Motors,56.91,0.01480,2010,1371,Capital Goods,826253
+GME,GameStop,152.14,-0.01210,2002,1053,Consumer Services,116160
+GMED,Globus Medical ,72.22,0.00800,2012,5691,Health Care,732822
+GMS,GMS Inc.,58.04,0.01990,2016,1487,Construction ,249896
+GNRC,Generac Holdlings ,351.29,-0.00150,2010,3914,Consumer Durables,221628
+GNW,Genworth Financial,4.09,-0.00490,2004,2186,Finance,207520
+MUSA,Murphy ,191.63,-0.01000,2013,9557,Public Utilities,495268
+MWA,MUELLER WATER PRODUCTS ,14.12,0.00860,2006,4346,Capital Goods,223094
+NAC,Nuveen California,15.43,0.00780,1999,1382,Finance,223326
+NAD,Nuveen Quality Municipal,15.91,0.00440,1999,2351,Finance,371346
+QS,QuantumScape ,24.57,0.01360,2020,6444,Capital Goods,103831
+QSR,Restaurant Brands International ,59.31,0.00780,2014,6895,Consumer Services,186869
+RAMP,LiveRamp Holdings,48.82,0.02070,2018,2346,Technology,332430
+RCL,D/B/A Royal Caribbean Cruises,79.53,0.00090,1993,3858,Consumer Services,202634
+REXR,Rexford Industrial Realty,77.5,-0.01070,2013,8792,Consumer Services,117402
+RH,RH,546.09,0.00280,2012,1757,Consumer Services,117238
+RKT,Rocket Companies,15.27,0.00990,2020,2489,Finance,206348

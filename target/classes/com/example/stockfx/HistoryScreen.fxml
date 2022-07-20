@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="504.0" prefWidth="402.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.HistoryController">
+   <children>
+      <ScrollPane hbarPolicy="NEVER" prefHeight="506.0" prefWidth="402.0">
+         <content>
+            <TableView fx:id="transactionsTable" prefHeight="505.0" prefWidth="402.0">
+               <columns>
+                  <TableColumn fx:id="dateCol" editable="false" prefWidth="69.59997564554214" text="Date " />
+                  <TableColumn fx:id="typeCol" editable="false" prefWidth="54.39996337890625" text="Type" />
+                  <TableColumn fx:id="symbolCol" editable="false" prefWidth="60.0" text="Symbol" />
+                  <TableColumn fx:id="priceCol" editable="false" prefWidth="71.20001220703125" text="Price (USD)" />
+                  <TableColumn fx:id="quantityCol" editable="false" prefWidth="57.59999084472656" text="Quantity" />
+                  <TableColumn fx:id="totalCol" editable="false" prefWidth="75.199951171875" text="Total (USD)" />
+               </columns>
+            </TableView>
+         </content>
+      </ScrollPane>
+   </children>
+</VBox>
